@@ -1,0 +1,33 @@
+{
+  "name": "apihandler",
+  "version": "1.0.14",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "repository": "https://github.com/spiderjs/engine.git",
+  "author": "yayanyang <yayanyang@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "tsc -p .",
+    "dev": "mocha-typescript-watch dist/test config"
+  },
+  "dependencies": {
+    "@types/log4js": "0.0.32",
+    "@types/rx": "^4.1.1",
+    "@types/rx-node": "0.0.5",
+    "log4js": "^1.1.1",
+    "rx": "^4.1.0",
+    "rx-node": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "mocha-typescript": "^1.0.23",
+    "eslint": "^3.17.1",
+    "eslint-plugin-node": "^4.2.1",
+    "nodemon": "^1.11.0",
+    "tslint": "^4.5.1",
+    "typescript": "^2.2.1"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}

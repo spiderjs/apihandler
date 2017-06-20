@@ -1,0 +1,21 @@
+{
+    "GET /info": {
+        "auth": [
+            "admin",
+            "develop"
+        ]
+    },
+    "POST /info": {
+        "auth": [
+            "admin",
+            "develop"
+        ],
+        "params": [
+            {
+                "name": "name",
+                "required": true
+            },
+            "phone"
+        ]
+    }
+}
